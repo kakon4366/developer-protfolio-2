@@ -1,3 +1,83 @@
 body {
   background: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+img{
+    width: 90%;
+}
+.parsonal-info-area{
+    width: 100%;
+    margin-bottom: 120px;
+}
+.half-width{
+    width: 50%;
+    padding: 0 5%;
+}
+.common-color{
+    color: #FF0066;
+}
+.flex-content{
+    display: flex;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 28px;
+    text-align: justify;
+}
+.common-btn{
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #FF0066, #bb024c);
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 24px;
+}
+
+/*
+    dream big area css
+*/
+.dream-big-area{
+    margin-bottom: 120px;
+}
+.dream-big-wrapper{
+    margin-top: 48px;
+}  
+
+.exprience-area{
+    margin-bottom: 120px;
+}
+.card{
+    width: 40%;
+    padding: 34px;
+    margin: 0 5%;
+    box-shadow: 4px 6px 34px #000;
+    padding-left: 74px;
+    border-image: linear-gradient(purple, red);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+.card h2{
+    font-size: 38px;
+}
+.card p{
+    font-size: 18px;
+    text-align: left;
+}
+.footer-area{
+    background: #FF0066;
+    padding: 8px 0;
+}
+.footer-area p{
+    text-align: center;
+    color: white;
 }
